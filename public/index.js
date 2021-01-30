@@ -89,3 +89,5 @@ socket.on("move", function (msg) {
   board.position(game.fen());
   updateStatus();
 });
+
+$("#flipOrientationBtn").on("click", board.flip);
