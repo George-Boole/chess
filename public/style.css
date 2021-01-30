@@ -1,4 +1,9 @@
 body {
+  height: 90vh;
+  border: 1px solid #6369b5;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+
   overflow-y: auto;
   display: flex;
   align-items: center;
